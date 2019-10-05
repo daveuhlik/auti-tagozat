@@ -63,11 +63,18 @@ body {
 
 /* ****************** ABOUT US ************** */
 
+#about-us h2 {
+  text-transform: uppercase;
+}
+
+
+/* ****************** THERAPY ************** */
+
 #therapy {
   background-color: gray;
 }
 
-#therapy h5, h2 {
+#therapy h5, #therapy h2 {
   color: white;
   padding-top: 1rem;
   text-transform: uppercase;

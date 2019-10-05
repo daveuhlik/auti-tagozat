@@ -20,6 +20,12 @@ body {
   background-image: url(img/toys.jpg);
 } 
 
+@media screen and (max-width: 992px) {
+  .home-inner {
+    max-height: 80vh;
+  }
+}
+
 .caption {
   width: 100%;
   max-width: 100%;
@@ -34,13 +40,14 @@ body {
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: .3rem;
-  text-shadow: .1rem .1rem .8rem black;
+  text-shadow: .1rem .1rem 1rem black;
   padding-bottom: 1rem;
 }
 
 .caption h3 {
   font-size: 2rem;
   text-shadow: .1rem .1rem .5rem black;
+  letter-spacing: .1rem;
 }
 
 @media  screen and (max-width: 600px) {

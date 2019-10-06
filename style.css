@@ -65,6 +65,7 @@ body {
 
 #about-us h2 {
   text-transform: uppercase;
+  letter-spacing: .2rem;
 }
 
 
@@ -98,22 +99,31 @@ body {
 /* ******************* CONTACT **************** */
 
 #contact {
-  background-color: black;
+  background-color: #1b222d;
   padding: 2rem 2rem;
 }
 
+#contact h3, #contact p {
+  color: white;
+}
+
+#contact h3 {
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
 .map-responsive{
-    overflow:hidden;
-    padding-bottom: 80%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    padding-bottom: 75%;
+    position: relative;
+    height: 0;
 }
 .map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 

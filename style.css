@@ -94,6 +94,11 @@ body {
 
 /* ******************* GALLERY **************** */
 
+#gallery {
+  font-weight: 700;
+  letter-spacing: .1rem;
+}
+
 #gallery h2 {
   color: black;
   padding-top: 1rem;

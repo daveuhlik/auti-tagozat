@@ -105,6 +105,16 @@ body {
   padding-bottom: 2rem;
 }
 
+.gallery-page {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.gallery--item img {
+    width: 100%;
+}
+
 
 /* ******************* CONTACT **************** */
 

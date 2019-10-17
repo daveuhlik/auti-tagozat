@@ -197,6 +197,15 @@ body {
   letter-spacing: .1rem;
 }
 
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
 
 
 

@@ -151,9 +151,12 @@ body {
 /* ******************* CONTACT **************** */
 
 #contact {
+  position: relative;
   padding-top: 50px;
   background-color: #1b222d;
   padding: 2rem 2rem;
+  box-shadow: 1px 15px 25px #555;
+  z-index: 99;
 }
 
 #contact h3, #contact p {
@@ -166,7 +169,7 @@ body {
   padding-bottom: .8rem;
 }
 
-.responsive-map {
+/*.responsive-map {
     overflow: hidden;
     padding-bottom: 75%;
     position: relative;
@@ -180,7 +183,7 @@ body {
     width: 100% !important;
     position: absolute;
     padding-top: 1.5rem;
-}
+}*/
 
 
 /* ************* FOOTER *********** */

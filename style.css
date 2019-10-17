@@ -23,7 +23,6 @@ body {
   background-size: cover;
 }
 
-
 .caption {
   width: 100%;
   max-width: 100%;
@@ -35,7 +34,7 @@ body {
 }
 
 .caption h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 700;
   letter-spacing: .3rem;
   text-shadow: .1rem .1rem 1rem black;
@@ -43,22 +42,22 @@ body {
 }
 
 .caption h3 {
-  font-size: 2rem;
+  font-size: 3.5rem;
   text-shadow: .1rem .1rem .5rem black;
   letter-spacing: .1rem;
 }
 
-@media  screen and (max-width: 576px) {
+@media  screen and (max-width: 768px) {
   .caption {
     top: 25%;
   }
 
   .caption h1 {
-    font-size: 3.7rem;
+    font-size: 5rem;
   }
 
   .caption h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 
@@ -169,6 +168,8 @@ body {
   letter-spacing: .2rem;
   padding-bottom: .8rem;
 }
+
+
 
 
 /* ************* FOOTER *********** */

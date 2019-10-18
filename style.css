@@ -171,6 +171,7 @@ body {
   padding: 2rem 2rem;
   box-shadow: 0px 15px 15px #555;
   z-index: 99;
+  border-radius: 0px 0px 30px 30px;
 }
 
 #contact h3, #contact p {

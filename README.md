@@ -2,5 +2,5 @@
 
 =========================================
 
-Ferencvárosi EGYMI Autista Tagozat honlap
+A Ferencvárosi EGYMI Autista Tagozat új honlapja
 

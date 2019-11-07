@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="css/animate.css">
     <script src="https://kit.fontawesome.com/e3e2b67f46.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="node_modules/hes-gallery/dist/hes-gallery.css">
-    <script src="node_modules/hes-gallery/dist/hes-gallery.js"></script>
   </head>
   <body data-spy="scroll" data-target="#navbarResponsive">
     <!--[if lt IE 8]>
@@ -150,20 +149,12 @@
         </div>
       </div>
       <!-- /.container -->
-      <div class="container">
-        <div class="hes-gallery row" data-wrap="true" data-img-count="4">
-          <div class="col-lg-3 col-md-6">
-            <img class="img-fluid img-thumbnail" src="img/bagoly/bagoly-1.jpg" alt="image1" data-subtext="Descrition 1" data-alt="Alt 1">
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <img class="img-fluid img-thumbnail" src="img/bagoly/bagoly-2.jpg" alt="image2" data-subtext="Descrition 2" data-alt="Alt 2">
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <img class="img-fluid img-thumbnail" src="img/bagoly/bagoly-3.jpg" alt="image3" data-subtext="Descrition 3" data-alt="Alt 3">
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <img class="img-fluid img-thumbnail" src="img/bagoly/bagoly-4.jpg" alt="image3" data-subtext="Descrition 3" data-alt="Alt 3">
-          </div>
+      <div class="main">
+        <div class="hes-gallery" data-wrap="true" data-img-count="4">
+          <img class="img-fluid" src="img/bagoly/bagoly-1.jpg" alt="Bagoly csoport képek" data-subtext="Descrition 1" data-alt="Alt 1">
+          <img class="img-fluid" src="img/bagoly/bagoly-2.jpg" alt="Bagoly csoport képek" data-subtext="Descrition 2" data-alt="Alt 2">
+          <img class="img-fluid" src="img/bagoly/bagoly-3.jpg" alt="Bagoly csoport képek" data-subtext="Descrition 3" data-alt="Alt 3">
+          <img class="img-fluid" src="img/bagoly/bagoly-4.jpg" alt="Bagoly csoport képek" data-subtext="Descrition 3" data-alt="Alt 3">
         </div>
       </div>
       <!-- FOOTER -->
@@ -185,6 +176,17 @@
       <script src="js/wow.js"></script>
       <script>
       new WOW().init();
+      </script>
+      <script src="node_modules/hes-gallery/dist/hes-gallery.js"></script>
+      <script>
+      HesGallery.setOptions({
+      disableScrolling: false,
+      hostedStyles: false,
+      animations: true,
+      minResolution: 0,
+      showImageCount: true,
+      wrapAround: true
+      });
       </script>
       <!--- End of Script Source Files -->
     </body>

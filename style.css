@@ -180,6 +180,10 @@ body {
     box-shadow: 2px 2px 6px #555;
 }
 
+.gallerysubtitle {
+  text-align: center;
+}
+
 @media (max-width: 800px) {
     .gallery-main{
         width: 100%;
@@ -223,7 +227,24 @@ body {
 }
 
 
+/* ************ MUNKATARSAK ********** */
 
+.kollega {
+  padding-top: 1rem;
+}
+
+.kollh4 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+hr {
+  width: 400px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
 
 /* ************* FOOTER *********** */
 .footer {
